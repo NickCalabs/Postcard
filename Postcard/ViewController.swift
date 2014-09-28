@@ -31,7 +31,6 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         //Code will evaluate when we press the button
         //Adding a comment here to test commits
-        //oh my god i think i love git, i type something here and it shows up on my broswer how amazballs i wonder waht happens if it get too long wwell i guess it just uops
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
